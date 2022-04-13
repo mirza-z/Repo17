@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: minmax(100%, 100%);
+    width: 100vw;
+    height: 100vh;
+}
+
+#left{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+}
+
+#right{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://image.ibb.co/cO9Lxq/login-bg.jpg");
+}
+
+#main-footer{
+    color: white;
+    
+}
+#main-footer a{
+    color: white;
+}
+label{
+    color: white;
+}
+.secondary-btn{
+    color: white;
+    background-color: gray;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.secondary-btn a{
+    color: white;
+    text-decoration: none;  
+}
+#showcase-content button{
+    height: 50px;
+    width: 550px;
+    position: relative;
+    right: -60px
+}
+h1{
+    font-size: 50px;
+    color: white;
+}
+
+.logo{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 600px;
+    margin-top: -50px;
+    margin-bottom: 150px;
+}
+
+label{
+    font-size: 20px;
+}
+
+input{
+    margin-top: 10px;
+    margin-bottom: 25px;
+    display: block;
+    color: white;
+    width: 600px;
+    height: 40px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.primary-btn{
+    width: 600px;
+    height: 40px;
+    margin-bottom: 60px;
+    background-color: rgb(7, 168, 221);
+    color: white;
+    font-size: large;
+}
+
+#links{
+    display: block;
+    font-size: large;
+}
+
+#links a{
+    margin-bottom: 25px;
+    text-align: center;
+    display: block;
+    color: blue;
+}
+
+#signin .secondary-btn{
+    width: 600px;
+    height: 40px;
+    margin-bottom: 150px;
+}
+
+#main-footer p{
+    text-align: center;
+
+    margin-bottom: 15px;
+}
+
+#main-footer div{
+   position: relative;
+   left: 210px;
+}
